@@ -44,4 +44,10 @@
 ![Chart-II-1](/DZ1/s1.png)
 ![Chart-II-2](/DZ1/s2.png)
 
+## Анализ data-frame
+
+Все блокноты лежат в папке PyTest
+
+Запускать `jupyter-notebook` из этой папки.
+
 ##### By Mikhail "SnipGhost" Kucherenko
