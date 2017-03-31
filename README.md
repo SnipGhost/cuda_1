@@ -40,3 +40,8 @@
 - набор картинок с вариантами графиков
 
 Построение графика в gnuplot: `load "script"`
+
+![Chart-II-1](/DZ1/s1.png)
+![Chart-II-2](/DZ1/s2.png)
+
+##### By Mikhail "SnipGhost" Kucherenko
