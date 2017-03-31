@@ -1,0 +1,8 @@
+set dgrid3d 21,32
+i=64
+t=301
+set xrange [0:i-1]
+set yrange [1:t-1]
+set xtics 0,16,i-1
+set ytics 0,50,t-1
+splot "out" using 1:2:3 with pm3d title sprintf("Temp for %i nodes", i) 
