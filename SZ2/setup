@@ -1,0 +1,27 @@
+#----------------------------
+#   Setup for GIF-animate   #
+#----------------------------
+xs=64           # Точек по X
+ys=64           # Точек по Y
+zs=1800         # Точек по X
+n=800           # Кадров, шт
+pnx=21          # dgrid3d X
+pny=21          # dgrid3d Y
+fin="out"       # Файл ввода
+fout="new.gif"  # Файл вывода
+td=2            # Задержка
+#----------------------------
+i=0      # Начальная итерация
+#----------------------------
+set term gif animate delay td
+set output fout
+#----------------------------
+set xrange [0:xs-1]
+set yrange [0:ys-1]
+set zrange [0:zs]
+set cbrange [0:zs]
+set xtics 0,xs/8,xs
+set ytics 0,ys/8,xs
+set ztics 0,zs/8,zs
+set dgrid3d pnx,pny
+#----------------------------

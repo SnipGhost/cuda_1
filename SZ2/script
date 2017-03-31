@@ -1,0 +1,6 @@
+ds=i*xs*ys
+de=(i+1)*xs*ys
+splot fin every ::ds::de using 1:2:3 with pm3d title sprintf("t=%i", i)
+i=i+1
+if (i < n) reread
+
